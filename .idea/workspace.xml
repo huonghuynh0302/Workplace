@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98454619-824b-467f-8e7f-fcf0431d3d53" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Data/DaTa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WPBase/LoginStaging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WPBase/LonginWP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WPTestCase/SendMess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WPTestCase/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WPTestCase/Votes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Method/ExcelUtils.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2VYzyrBocO6lvMIb60MKRShrm21" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/DELL/.m2/repository/org/testng/testng/7.7.1&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.25862068&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example" />
+      <recent name="Method" />
+      <recent name="WPBase" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DELL\IdeaProjects\Workplace\src\main\java\Data\Excel" />
+      <recent name="C:\Users\DELL\IdeaProjects\Workplace\src\main\java\Data" />
+      <recent name="C:\Users\DELL\IdeaProjects\Workplace\src\main\java\Data\InputData" />
+      <recent name="C:\Users\DELL\IdeaProjects\Workplace\src\main\java\org\example\input_data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.SendMess.sendImg">
+    <configuration name="SendMess.sendImg" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Workplace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WPTestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WPTestCase" />
+      <option name="MAIN_CLASS_NAME" value="WPTestCase.SendMess" />
+      <option name="METHOD_NAME" value="sendImg" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Votes" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Workplace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WPTestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WPTestCase" />
+      <option name="MAIN_CLASS_NAME" value="WPTestCase.Votes" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Votes.TC1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Workplace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WPTestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WPTestCase" />
+      <option name="MAIN_CLASS_NAME" value="WPTestCase.Votes" />
+      <option name="METHOD_NAME" value="TC1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Votes.TC2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Workplace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WPTestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WPTestCase" />
+      <option name="MAIN_CLASS_NAME" value="WPTestCase.Votes" />
+      <option name="METHOD_NAME" value="TC2" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Votes.VoteNews" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Workplace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WPTestCase.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WPTestCase" />
+      <option name="MAIN_CLASS_NAME" value="WPTestCase.Votes" />
+      <option name="METHOD_NAME" value="VoteNews" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SendMess.sendImg" />
+        <item itemvalue="TestNG.Votes" />
+        <item itemvalue="TestNG.Votes.TC2" />
+        <item itemvalue="TestNG.Votes.TC1" />
+        <item itemvalue="TestNG.Votes.VoteNews" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98454619-824b-467f-8e7f-fcf0431d3d53" name="Changes" comment="" />
+      <created>1695028059212</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695028059212</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
