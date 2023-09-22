@@ -23,4 +23,8 @@ public class DaTa {
                                 ,{"ngắn","hi","hoho"}
                                 ,{"Hôm nay bạn thế nào","Đang rất vui","Đang rất buồn ngủ"}};
     }
+    @DataProvider(name = "keyworksearch")
+    public Object[][] ksearch(){
+        return new Object[][] {{"hasaki"},{"h"}};
+    }
 }

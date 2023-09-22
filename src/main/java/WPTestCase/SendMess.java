@@ -50,7 +50,7 @@ public class SendMess extends LoginStaging {
         }
     }
     @Test
-    public void sendfile() throws InterruptedException{
+    public void sendfile(String mulFile) throws InterruptedException{
         driver.findElement(By.xpath("(//img[@class='_icon_iq4kl_47 loading'])[1]")).click();
         LogStag("acctest2@gmail.com", "123456");
 
