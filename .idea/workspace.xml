@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98454619-824b-467f-8e7f-fcf0431d3d53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/WPTestCase/SearchStag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Data/DaTa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/DaTa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WPBase/LoginStaging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WPBase/LoginStaging.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WPBase/LonginWP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WPBase/LonginWP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WPTestCase/SearchStag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WPTestCase/SearchStag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WPTestCase/SendMess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WPTestCase/SendMess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +64,7 @@
       <recent name="C:\Users\DELL\IdeaProjects\Workplace\src\main\java\org\example\input_data" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.SearchStag.Search">
+  <component name="RunManager" selected="TestNG.SendMess.Send">
     <configuration name="SearchStag" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Workplace" />
       <extension name="coverage">
@@ -138,7 +135,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Votes.TC1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SendMess.sendfile" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Workplace" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +144,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="WPTestCase" />
-      <option name="MAIN_CLASS_NAME" value="WPTestCase.Votes" />
-      <option name="METHOD_NAME" value="TC1" />
+      <option name="MAIN_CLASS_NAME" value="WPTestCase.SendMess" />
+      <option name="METHOD_NAME" value="sendfile" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -158,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SearchStag.Search" />
-        <item itemvalue="TestNG.SearchStag" />
-        <item itemvalue="TestNG.SendMess" />
         <item itemvalue="TestNG.SendMess.Send" />
-        <item itemvalue="TestNG.Votes.TC1" />
+        <item itemvalue="TestNG.SearchStag" />
+        <item itemvalue="TestNG.SearchStag.Search" />
+        <item itemvalue="TestNG.SendMess" />
+        <item itemvalue="TestNG.SendMess.sendfile" />
       </list>
     </recent_temporary>
   </component>

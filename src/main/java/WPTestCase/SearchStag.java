@@ -16,6 +16,7 @@ public class SearchStag extends LoginStaging {
         driver.findElement(By.xpath("/html[1]/body[1]/div[2]/img[1]")).click();
         LogStag("acctest2@gmail.com", "123456");
         //Click vào cục chat & đợi loading ls chat
+        Thread.sleep(5000);
         WebElement Cucchat = new WebDriverWait(driver, Duration.ofSeconds(10))
                 .until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[2]/img[1]")));
         Cucchat.click();

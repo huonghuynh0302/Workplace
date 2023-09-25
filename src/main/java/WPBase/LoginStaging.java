@@ -27,7 +27,7 @@ public class LoginStaging {
     }
     @AfterMethod
     public void out(){
-        //driver.quit();
+        driver.quit();
     }
     public void LogStag (String mail, String pass){
         driver.findElement(By.id("username")).sendKeys(mail);

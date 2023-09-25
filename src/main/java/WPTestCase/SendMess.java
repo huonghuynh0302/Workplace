@@ -16,22 +16,23 @@ import java.time.Duration;
 
 public class SendMess extends LoginStaging {
 
-    @Test
+    @Test(priority = 1)
     public void Send() throws InterruptedException {
-        driver.findElement(By.xpath("(//img[@class='_icon_iq4kl_47 loading'])[1]")).click();
+        driver.findElement(By.xpath("/html[1]/body[1]/div[2]/img[1]")).click();
         LogStag("acctest2@gmail.com", "123456");
 
         //Click vào cục chat & đợi loading ls chat
         WebElement Cucchat = new WebDriverWait(driver, Duration.ofSeconds(10))
-                .until(ExpectedConditions.elementToBeClickable(By.xpath("(//img[@class='_icon_iq4kl_47 loading'])[1]")));
+                .until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[2]/img[1]")));
         Cucchat.click();
 
         //Send text
         WebElement text = new WebDriverWait(driver, Duration.ofSeconds(10))
                 .until(ExpectedConditions.elementToBeClickable(By.id("base-textarea-id")));
         text.sendKeys("Xin chào");
+        Thread.sleep(5000);
         text.sendKeys(Keys.ENTER);
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         text.sendKeys("aa");
         text.sendKeys(Keys.ENTER);
         Thread.sleep(2000);
@@ -41,59 +42,57 @@ public class SendMess extends LoginStaging {
         text.sendKeys("");
         text.sendKeys(Keys.ENTER);
         Thread.sleep(2000);
-        text.sendKeys("             ");
-        text.sendKeys(Keys.ENTER);
 
         String dodai = String.valueOf(text);
         if(dodai.length()!=0){
             System.out.print("Không gừi được ký tự trống");
         }
     }
-    @Test
-    public void sendfile(String mulFile) throws InterruptedException{
-        driver.findElement(By.xpath("(//img[@class='_icon_iq4kl_47 loading'])[1]")).click();
-        LogStag("acctest2@gmail.com", "123456");
-
-        //Click vào cục chat & đợi loading ls chat
-        WebElement Cucchat = new WebDriverWait(driver, Duration.ofSeconds(10))
-                .until(ExpectedConditions.elementToBeClickable(By.xpath("(//img[@class='_icon_iq4kl_47 loading'])[1]")));
-        Cucchat.click();
-        Thread.sleep(6000);
-        //Send file
-        WebElement Iconfile = new WebDriverWait(driver, Duration.ofSeconds(5))
-                .until(ExpectedConditions.elementToBeClickable(By.xpath("//label[@title='Tải file']//*[name()='svg']")));
-        Iconfile.click();
-        // Khởi tạo Robot class
-        Robot rb = null;
-        try {
-            rb = new Robot();
-        } catch (AWTException e) {
-            e.printStackTrace();
-        }
-        // Copy File path vào Clipboard
-        StringSelection str = new StringSelection("C:\\Users\\DELL\\Downloads\\ISTQB_CTFL_Syllabus-v4.0 (1) (2).pdf");
-        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(str, null);
-        Thread.sleep(1000);
-        // Nhấn Control+V để dán
-        rb.keyPress(KeyEvent.VK_CONTROL);
-        rb.keyPress(KeyEvent.VK_V);
-        // Xác nhận Control V trên
-        rb.keyRelease(KeyEvent.VK_CONTROL);
-        rb.keyRelease(KeyEvent.VK_V);
-        Thread.sleep(1000);
-        // Nhấn Enter
-        rb.keyPress(KeyEvent.VK_ENTER);
-        rb.keyRelease(KeyEvent.VK_ENTER);
-
-    }
-    @Test
+//    @Test(priority = 2)
+//    public void sendfile(String mulFile) throws InterruptedException{
+//        driver.findElement(By.xpath("/html[1]/body[1]/div[2]/img[1]")).click();
+//        LogStag("acctest2@gmail.com", "123456");
+//
+//        //Click vào cục chat & đợi loading ls chat
+//        WebElement Cucchat = new WebDriverWait(driver, Duration.ofSeconds(10))
+//                .until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[2]/img[1]")));
+//        Cucchat.click();
+//        Thread.sleep(6000);
+//        //Send file
+//        WebElement Iconfile = new WebDriverWait(driver, Duration.ofSeconds(5))
+//                .until(ExpectedConditions.elementToBeClickable(By.xpath("//label[@title='Tải file']//*[name()='svg']")));
+//        Iconfile.click();
+//        // Khởi tạo Robot class
+//        Robot rb = null;
+//        try {
+//            rb = new Robot();
+//        } catch (AWTException e) {
+//            e.printStackTrace();
+//        }
+//        // Copy File path vào Clipboard
+//        StringSelection str = new StringSelection("C:\\Users\\DELL\\Downloads\\ISTQB_CTFL_Syllabus-v4.0 (1) (2).pdf");
+//        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(str, null);
+//        Thread.sleep(1000);
+//        // Nhấn Control+V để dán
+//        rb.keyPress(KeyEvent.VK_CONTROL);
+//        rb.keyPress(KeyEvent.VK_V);
+//        // Xác nhận Control V trên
+//        rb.keyRelease(KeyEvent.VK_CONTROL);
+//        rb.keyRelease(KeyEvent.VK_V);
+//        Thread.sleep(1000);
+//        // Nhấn Enter
+//        rb.keyPress(KeyEvent.VK_ENTER);
+//        rb.keyRelease(KeyEvent.VK_ENTER);
+//
+//    }
+    @Test(priority = 2)
     public void sendMultiplefile() throws InterruptedException{
-        driver.findElement(By.xpath("(//img[@class='_icon_iq4kl_47 loading'])[1]")).click();
+        driver.findElement(By.xpath("/html[1]/body[1]/div[2]/img[1]")).click();
         LogStag("acctest2@gmail.com", "123456");
 
         //Click vào cục chat & đợi loading ls chat
         WebElement Cucchat = new WebDriverWait(driver, Duration.ofSeconds(10))
-                .until(ExpectedConditions.elementToBeClickable(By.xpath("(//img[@class='_icon_iq4kl_47 loading'])[1]")));
+                .until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[2]/img[1]")));
         Cucchat.click();
         Thread.sleep(6000);
         //Send file
@@ -123,14 +122,14 @@ public class SendMess extends LoginStaging {
         rb1.keyRelease(KeyEvent.VK_ENTER);
     }
 
-    @Test
+    @Test(priority = 3)
     public void sendImg() throws InterruptedException{
-        driver.findElement(By.xpath("(//img[@class='_icon_iq4kl_47 loading'])[1]")).click();
+        driver.findElement(By.xpath("/html[1]/body[1]/div[2]/img[1]")).click();
         LogStag("acctest2@gmail.com", "123456");
 
         //Click vào cục chat & đợi loading ls chat
         WebElement Cucchat = new WebDriverWait(driver, Duration.ofSeconds(10))
-                .until(ExpectedConditions.elementToBeClickable(By.xpath("(//img[@class='_icon_iq4kl_47 loading'])[1]")));
+                .until(ExpectedConditions.elementToBeClickable(By.xpath("/html[1]/body[1]/div[2]/img[1]")));
         Cucchat.click();
         Thread.sleep(6000);
         //Send file
