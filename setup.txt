@@ -1,0 +1,37 @@
+1. Install Intell ij: https://www.jetbrains.com/idea/download/?section=windows
+
+2. JDK - Java Development Kit - là một hệ tiêu chuẩn trong việc triển khai nền tảng 
+Java, bao gồm các trình thông dịch dịch và thư viện lớp.
+- Tải bản JDK installer tương ứng và vài lần click chuột next để hoàn thành cài đặt theo hướng dẫn của installer 
+https://www.oracle.com/java/technologies/downloads/#jdk18-windows
+- Kiểm tra đã cài JDK chưa: Mở cmd, run "java --version". Nếu đã có JDK, sẽ hiện thông tin "java 21 2023-09-19 LTS ...."
+
+3. Maven - công cụ quản lý và thiết lập tự động 1 dự án phần mềm
+- Tải file cài đặt: https://maven.apache.org/download.cgi
+- Chọn file download tại mục “Files” -> “Binary zip archive“
+- Extract file vào folder mong muốn
+- Setup biến môi trường:
+	+ Control Panel 
+	+ Search chức năng "System variables" ở search textbox góc phải trên cùng
+ 	+ Chọn "Edit the system enviroment variables"
+	+ Nhấn "Enviroment Variables"
+	+ Click vào nút “New” trên “System variables”, nhập nội dung như sau
+		+) Variable name: “MAVEN_HOME”
+		+) Variable value: Nơi bạn extract maven file ở trên
+	+ Nhấn OK để xác nhận
+	+ Nhấn vào variable "Path" trên “System variables” 
+		+) Click vào nút "New"
+		+) Nhập đường dẫn - nơi bạn extract maven file ở trên, nhưng trỏ tới folder bin
+		+) Nhấn OK để xác nhận
+- Kiểm tra maven đã cài chưa: Mở cmd, run "mvn -version". Nếu đã có JDK, sẽ hiện thông tin "Apache Maven 3.9.4 (dfbb324ad4a7c8fb0bf182e6d91b0ae20e3d2dd9)...."
+
+4. Tạo mới project:
+- File > New project 
+- Tại mục "Priject SDK" -> Chọn file jdk đã cài > Next
+- Name: Tên dự án
+- Location: Vị trí lưu folder dự án > Finish (Ngoài ra, trong Artifact Coordinates có config các thông tin cài đặt Maven) -> Intellij IDEA sẽ khởi tạo Maven project với file pom.xml 
+5. Thêm các dependences vào maven project (file pom.xml)
+- Selenium: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java/4.12.1
+- Chrome driver: https://chromedriver.chromium.org/downloads -> Lưu file chromeDriver ngay folder của project (Trình duyệt Chrome và chrome driver cùng version - nên tắt tính năng tự update)
+6. Sử dụng thêm TestNG framework để verify kết quả
+7. Cài git bash: https://gitforwindows.org/
